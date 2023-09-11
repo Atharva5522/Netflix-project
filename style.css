@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./netflic.jpg);
+}
+.container nav img{
+    height: 120px;
+    width: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 7%;
+}
+.container nav span button{
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.container nav span button:hover{
+    background-color:rgb(211, 26, 26) ;
+}
+#btn{
+    display: none;
+}
+.text-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.text-section h1{
+    color: white;
+    font-size: 50px;
+}
+.text-section h6{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.text-section p{
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.text-section span{
+    margin-top: 20px;
+}
+.text-section span input{
+    height: 50px;
+    width: 350px;
+    border: 1px solid white ;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 17px;
+    background-color: rgba(128, 128, 128, 0.174);
+    color: white;
+
+    
+}
+.text-section span button{
+    height: 50px;
+    width:170px ;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.text-section span button:hover{
+    background-color: rgb(211, 26, 26);
+}
+#icon-btn{
+    background-color: rgba(128, 128, 128, 0.415);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+}
+.tv-section{
+    height: 590px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.text-part{
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-part h1{
+    font-size: 49px;
+}
+.text-part h6{
+    font-size: 20px;
+}
+.img-part{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img-part img{
+    height: 350px;
+}
+
+.faq-section{
+    background-color: black;
+    height:auto;
+    width: 100%;
+    text-align: center;
+}
+.faq-section h1{
+    color: white;
+    font-size: 45px;
+    padding-block: 60px;
+   
+   
+}
+
+.box{
+    background-color: rgb(45, 44, 44);
+    height: 80px;
+    width: 70%;
+    margin-inline: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 15px;
+   
+   }
+   
+    .box span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding-block: 20px;
+        padding-inline: 20px;
+        font-size: 20px;
+    }
+    .box:hover{
+        background-color: gray;
+    }
+
+    .started{
+        width: 100%;
+        height:auto;
+        background-color: black;
+        padding-block:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+
+    .started p{
+        color: white;
+    
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .started span{
+        margin-top: 30px;
+    }
+
+    
+
+      
+        
+    
+    .started span input{
+        height: 50px;
+        width: 400px;
+        background-color: rgba(128, 128, 128, 0.072);
+        font-size: 18px;
+      border: 1px solid rgb(116, 251, 116);
+        border-radius:5px;
+        padding-inline: 10px;
+        color: white;
+
+    }
+    .started span button{
+        height: 53px;
+        width: 200px;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        border-top: 5px solid red;
+        font-size: 15px;
+    }
+    .started span button:hover{
+        background-color: rgb(211, 26, 26);
+    }
+
+    .footer-section{
+        background-color: black;
+        width: 100%;
+        height: 550px;
+       
+    }
+    .footer-section p{
+        color: white;
+        /* padding-inline: 120px; */
+        /* padding-block: 90px; */
+    }
+    .footer-part{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .footer-part ul li a{
+        color: white;
+        list-style: none;
+       
+    }
+
+    .footer{
+        text-align: start;
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+    .footer-part ul li{
+        padding: 5px;
+    }
+    #Para{
+        padding-block: 90px;
+        padding-inline: 90px;
+        
+    }
+
+    .footer button{
+        height: 30px;
+        width: 90px;
+        color: white;
+        background-color: rgba(128, 128, 128, 0.226);
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .footer p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+   
+    
+
+
+   
+   
+
+
+
+
+
+@media (max-width:768px){
+    .container{
+        height:auto;
+        width: 100%;
+
+    }
+    nav{
+        height: auto;
+        width: 100%;
+    }
+    nav img{
+        width: 40px;
+    }
+   #sign-btn{
+        width:70px;
+        border-radius: 5px;
+        
+    }
+    .text-section{
+        height: auto;
+        width: 100%;
+        padding-top: 15px;
+        align-items: center;
+        
+        
+    }
+    .text-section h1{
+        font-size:25px ;
+        text-align: center;
+    }
+    .text-section h6{
+        font-size: 17px;
+        text-align: center;
+    } 
+    .text-section p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .text-section span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-section span input{
+        width: 350px;
+    }
+    .text-section span button{
+        margin-top: 15px;
+    }
+    #btn{
+        display: inline;
+        background-color: rgba(64, 63, 63, 0.415);
+        border-radius: 5px;
+        border: 1px solid white;
+        width: 70px;
+    }
+   
+    #icon-btn{
+        display: none;
+
+
+    }
+    nav span{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .tv-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+       
+    }
+    .text-part{
+        width: 100%;
+        height: auto;
+    }
+    .text-part h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .text-part h6{
+        text-align: center;
+        font-size: 20px;
+    }
+    .img-part{
+        width: 100%;
+        height: auto;
+    }
+    .img-part img{
+        height:300px;
+      
+    }
+    .faq-section{
+        width: 100%;
+        height: auto;
+    }
+    .faq-section h1{
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .faq-part{
+        width: 100%;
+        height: auto;
+    }
+    .box{
+        width:300px;
+        margin-inline: 80px;
+       
+    }
+    .started{
+        width: 100%;
+        height: auto;
+    }
+    .started p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .started span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .started span input{
+        width: 300px;
+        
+    }
+    .started span button{
+        width: 150px;
+        text-align: center;
+        height: 50px;
+        margin-top: 10px;
+    }
+    
+   
+
+
+
+
+        
+}
